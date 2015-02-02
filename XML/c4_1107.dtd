@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!ELEMENT booklist (book*) >
+    <!ELEMENT book (title, author) >
+        <!ELEMENT title (#PCDATA) >
+        <!ELEMENT author (#PCDATA) >
+ 
+ <!ATTLIST book
+            kind (컴퓨터|소설|수필) "컴퓨터" >

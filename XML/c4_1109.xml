@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!DOCTYPE booklist SYSTEM "c4_1109.dtd">
+<booklist>
+    <kinds>
+        <kind id="k1">소설</kind>
+        <kind id="k2">수필</kind>
+        <kind id="k3">컴퓨터</kind>
+    </kinds>
+    
+    <book id="b1" kind="k1">
+        <title>시인과 도둑</title>
+        <author>이문열</author>
+    </book>
+    
+    
+    
+</booklist>

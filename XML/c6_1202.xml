@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<booklist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="c6_1202.xsd">
+    
+    <book>
+        <title>XML Programe</title>
+        <author>최준호</author>
+        
+    </book>
+    
+    
+    <book>
+        <title>박근혜 탄핵</title>
+        <writer>홍길동</writer>
+    </book>
+    
+    
+    <book>
+        <title>2015년 02월 박근혜지지율 17%</title>
+        <writer>대한민국</writer>
+    </book>
+    
+    <book>
+        <title>통일은 되더라도... 박근혜 악마는  아니다. 김정은 하고 같이 내려 와라!!!  올바른 사람이 다시 하겠지!! </title>
+        <writer>대한민국</writer>
+    </book>
+    
+    
+</booklist>

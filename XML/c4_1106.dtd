@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!ELEMENT  booklist (book*) >
+    <!ELEMENT book (#PCDATA) >
+    
+
+<!-- 속성 선언 -->
+
+<!ATTLIST book
+        kind CDATA #REQUIRED
+        title CDATA #REQUIRED>

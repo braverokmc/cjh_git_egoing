@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<booklist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="c6_1303.xsd">
+    
+    <book id="b1" kind="컴퓨터">
+        <title>XML And Java</title>
+        <author>최준호</author>
+        <publisher>프리렉</publisher>
+        <price>25000</price>
+    </book>
+    
+    
+</booklist>

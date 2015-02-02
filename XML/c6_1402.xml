@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<booklist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="c6_1402.xsd">
+    
+    <book>
+        <title>Visul Basic</title>
+        <author name="최준호" tel="011-343-34234"/>
+        <publisher name="ㄹㄷㄹㄷ" tel="ㄱ354">
+            <address>경기돋</address>
+        </publisher>
+    </book>
+    
+    
+    
+</booklist>

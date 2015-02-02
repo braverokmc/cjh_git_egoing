@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!ELEMENT  booklist (book*) >
+    <!ELEMENT book (title , author+ , publisher) >
+    <!ELEMENT title (#PCDATA) >
+    <!ELEMENT author (#PCDATA) >
+    <!ELEMENT publisher (#PCDATA) >

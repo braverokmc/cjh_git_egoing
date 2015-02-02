@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!DOCTYPE 책목록 SYSTEM "c4_1401.dtd" [
+        
+        <!ENTITY % en "IGNORE">
+        <!ENTITY % kr "INCLUDE">
+   
+]>
+
+
+<!-- 루트 엘리먼트 -->
+
+<책목록>
+    <책>
+        <제목> 시인과 도둑</제목>
+        <저자> 이문열</저자>
+    </책>
+   
+</책목록>

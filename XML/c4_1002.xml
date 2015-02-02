@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!-- 루트 엘리먼트 -->
+
+<book>
+    <title>XML Fundamentals</title>
+    <author>최 준 호</author>
+    <price>20000</price>
+    <publisher>프리렉</publisher>
+</book>

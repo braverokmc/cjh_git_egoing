@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<booklist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="c6_1106.xsd">
+    
+    <book>
+        <title>XML Programming</title>
+        <author>최준호</author>
+    </book>
+    
+    <book>
+        <title>XML Programming</title>
+        <author>선우해경</author>
+    </book>
+    
+    
+</booklist>

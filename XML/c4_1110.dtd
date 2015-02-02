@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+
+<!-- 엘리먼트 선언 -->
+<!ELEMENT booklist (book*) >
+    <!ELEMENT book (title, author, publisher) >
+        <!ELEMENT title (#PCDATA) >
+        <!ELEMENT author (#PCDATA) >
+        <!ELEMENT publisher (#PCDATA) > 
+
+<!-- 속성 선언 -->
+<!ATTLIST  author
+        name NMTOKEN #REQUIRED>
+        
+<!ATTLIST  publisher
+        kind NMTOKENS #REQUIRED>

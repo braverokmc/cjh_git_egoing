@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!DOCTYPE booklist SYSTEM "c4_1501.dtd">
+
+
+<booklist>
+    <book id="b1" kind="컴퓨터">
+        <title>JSP And Servlet</title>
+        <author>
+            <name sex="man">sss</name>
+            <tel>ss</tel>
+            <address>ss</address>
+        </author>
+        <publisher>ㄷㄷㄷ</publisher>
+        <price>33</price>
+    </book>
+    
+    
+</booklist>

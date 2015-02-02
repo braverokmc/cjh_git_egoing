@@ -1,0 +1,9 @@
+<?xml encoding="EUC-KR"?>
+
+<!ELEMENT booklist (book)>
+<!ATTLIST booklist
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT book (#PCDATA)>
+<!ATTLIST book
+  xmlns CDATA #FIXED ''>

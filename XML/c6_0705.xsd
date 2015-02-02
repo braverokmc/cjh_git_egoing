@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    
+    <!-- 글로벌 엘리먼트 선언 -->
+    <xsd:element name="책" type="xsd:string" />
+    
+    <!-- 루트 엘리먼트 선언 -->
+    <xsd:element name="책목록">
+        <xsd:complexType>
+            <xsd:sequence>
+                
+                <xsd:element ref="책" maxOccurs="unbounded"></xsd:element>
+                
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+    
+    
+    
+    
+    
+    
+</xsd:schema>

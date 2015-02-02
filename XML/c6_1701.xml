@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<booklist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="c6_1701.xsd">
+    
+    
+    <book>
+        <title>X</title>
+        <image src="xdfmsdfs.gif" type="gif" />
+    </book>
+    
+    
+    
+</booklist>

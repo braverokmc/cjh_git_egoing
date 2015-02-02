@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<cjh:booklist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://blueskii.homeip.net/xml  c6_1901.xsd"
+        xmlns:cjh="http://blueskii.homeip.net/xml">
+    
+    <cjh:book>
+           <cjh:title></cjh:title>
+            <cjh:author></cjh:author>
+            <cjh:publisher></cjh:publisher>
+            <cjh:price>433</cjh:price>
+        
+    </cjh:book>
+    
+    
+    
+ </cjh:booklist>
+    

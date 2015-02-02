@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+
+<!-- 문서 유형 선언 -->
+<!DOCTYPE booklist SYSTEM "c4_1008.dtd" >
+
+<!-- 루트 엘리먼트 -->
+    
+
+<booklist>
+    <book>
+        <title>시인과 도둑</title>
+        <author>이문열</author>
+        <publisher>가람기획</publisher>
+    </book>
+    
+    <book>
+        <title>시인과 도둑</title>
+        <author>
+            
+            <name>sss</name>
+            
+        </author>
+          
+        <publisher>가람기획</publisher>
+    </book>
+
+
+    
+</booklist>
+
+
+
+
+
+

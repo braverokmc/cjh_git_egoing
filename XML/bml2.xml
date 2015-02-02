@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<booklist>
+    <book id="b1" kind="computer">
+        <title>JSP And Servlet</title>
+        <author>최준호</author>
+        <publisher>인포북</publisher>
+        <price>25000</price>
+    </book>
+
+    <book id="b2" kind="computer">
+        <title>Inside XML</title>
+        <author>최준호</author>
+        <publisher>디지털북스</publisher>
+        <price>3434</price>
+    </book>
+
+
+</booklist>

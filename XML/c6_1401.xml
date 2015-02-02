@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<booklist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="c6_1401.xsd">
+    
+    <book>
+        <title>Visual Basic</title>
+        <author>
+            <name>최준호</name>
+            <tel>
+                <home>042-4234-234</home>
+                <mobile>03424-4234-342</mobile>
+            </tel>
+        </author>
+        <publisher>
+            <name>프리렉</name>
+            <phone>
+                <office>45334</office>
+            </phone>
+        </publisher>
+    
+    </book>
+    
+    
+    
+    
+</booklist>

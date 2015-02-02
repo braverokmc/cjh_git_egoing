@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<!DOCTYPE members SYSTEM "c4_1204.dtd">
+
+<members>
+    <chief>
+        <name>홍길동</name>
+        <age>45</age>
+        <tel>011-123-1234</tel>
+    </chief>
+    
+    <manager>
+        <name></name>
+        <age></age>
+        <tel></tel>
+    </manager>
+    
+    <waiter>
+        <name></name>
+        <age></age>
+        <tel></tel>
+    </waiter>
+    
+    
+</members>

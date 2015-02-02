@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+<booklist xmlns="http://www.minchoel.co.kr/2003/BookML">
+    
+ <!-- 디폴트 네임스페이스 사용 영역  -->
+    <book>
+        <title>시인과 도둑</title>
+        <author>이문열</author>
+    </book>
+    
+    <!--디폴트 네임스페이스 해지 영역 -->
+    <html xmlns="">
+        <body>
+            
+            제목:봉순이 언니
+            <br/>
+            
+            
+        </body>
+    </html>
+    
+    
+    
+    
+    
+</booklist>

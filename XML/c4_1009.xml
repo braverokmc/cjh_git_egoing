@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="euc-kr"?>
+
+
+<!DOCTYPE booklist SYSTEM "c4_1009.dtd">
+<booklist>
+    <book>
+        <title>시인과 도둑</title>
+        <author>
+            <name>e</name>
+            <tel>213123</tel>
+        </author>
+        <publisher>ee</publisher>
+        <image/>
+    </book>
+    
+</booklist>

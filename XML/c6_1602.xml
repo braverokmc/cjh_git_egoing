@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<booklist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="c6_1602.xsd"
+        xsi:schemaLocation="http://www.mincheol.com/pml c6_1601.xsd"
+        xmlns:pml="http://www.mincheol.com/pml" >
+    
+    
+        <book>
+            <title></title>
+            <author></author>
+            <pml:publisher>
+                <pml:name></pml:name>
+                <pml:tel></pml:tel>
+                <pml:address></pml:address>
+            </pml:publisher>
+                
+        </book>
+    
+    
+    
+    
+    
+</booklist>
+        
