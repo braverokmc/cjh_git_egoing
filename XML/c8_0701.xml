@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="euc-kr"?>
 
 <!-- XSL 문서 적용 -->
-<?xml-stylesheet type="text/xsl" href="c8_0702.xsl"?>
+<?xml-stylesheet type="text/xsl" href="c8_0703.xsl"?>
 
 <booklist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="c8_0701.xsd">
