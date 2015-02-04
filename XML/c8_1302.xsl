@@ -4,12 +4,12 @@
    
    
    <!-- book 템플레이트 툴 -->
-    <xml:template match="book">
+    <xsl:template match="book">
         <tr>
             <td><xsl:value-of select="title"/></td>
             <td><xsl:value-of select="author"/></td>
         </tr>
-    </xml:template>
+    </xsl:template>
    
    
    
