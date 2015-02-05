@@ -1,0 +1,19 @@
+import java.io.*;
+public class FileInOut {
+
+	
+	
+	
+	public static void main(String[] args) throws IOException{
+		
+		
+		File  file = new File("C:/Users/cyj/Desktop/»ó¼¼ JAVA.hwp" )
+		
+		
+		
+	}
+	
+	
+	
+	
+}

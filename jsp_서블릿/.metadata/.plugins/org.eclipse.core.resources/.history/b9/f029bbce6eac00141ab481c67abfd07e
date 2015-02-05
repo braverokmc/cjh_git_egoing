@@ -1,0 +1,27 @@
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+public class Round09_Text_Out {
+	
+	public static void main(String[] args){
+		
+		Scanner in = new Scanner(System.in);
+		Socket socket =null;
+		PrintWriter out =null;
+		try{
+			socket = new Socket(InetAddress.getByName("122.36.151.129"), 12345);
+			out =new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream()));
+			
+		}catch(IOException e){}
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+}

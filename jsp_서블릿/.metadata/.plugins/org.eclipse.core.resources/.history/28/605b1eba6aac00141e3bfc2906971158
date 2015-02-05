@@ -1,0 +1,21 @@
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+public class Round09_Text_in {
+	
+	public static void main(String[] arg){
+		ServerSocket server =null;
+		BufferedReader in = null;
+		try{
+			server =new ServerSocket(12345);
+			System.out.println("Server Ready...");
+			
+			
+			
+		}catch(IOException e){
+			System.err.println("Error =" + e);
+		}
+	}
+	
+}
