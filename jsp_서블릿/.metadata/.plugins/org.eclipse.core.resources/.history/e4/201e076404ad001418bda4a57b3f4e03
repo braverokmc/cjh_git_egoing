@@ -1,0 +1,33 @@
+import java.awt.event.*;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+import javax.swing.JFrame;
+
+public class ChatServer extends JFrame implements ActionListener{
+	BufferedReader in=null;
+	
+	
+	Socket socket=null;
+	ServerSocket severSocket =null;
+	
+	public ChatServer(){
+		
+	}
+	
+	
+	
+	
+	
+	public void actionPerformed(ActionEvent e) {
+	
+	}
+	
+	
+	
+	
+	public static void main(String[] arg){
+		new ChatServer();
+	}
+	
+}
