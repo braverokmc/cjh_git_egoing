@@ -9,7 +9,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-import com.sun.xml.internal.ws.resources.ClientMessages;
+
 
 public class ChatServer extends JFrame implements ActionListener{
 	BufferedReader in=null;

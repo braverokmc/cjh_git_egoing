@@ -1,0 +1,22 @@
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+public class Round09_Text_Out3 {
+	public static void main(String[] arg){
+			
+		Scanner in =new Scanner(System.in);
+		Socket socket=null;
+		PrintWriter out =null;
+		try{
+			socket =new Socket(InetAddress.getByName("localhost"),12345);
+			
+			
+		
+		}catch(IOException ee){}
+		
+		
+		
+		
+	}
+}

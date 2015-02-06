@@ -1,0 +1,119 @@
+import java.io.*;
+import java.util.*;
+
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+class Friend2 implements Serializable{
+		private String name;
+		private String tel;
+		private String addr;
+		public Friend2() {}
+		public Friend2(String name, String tel, String addr){
+				super();
+				this.name=name;
+				this.tel=tel;
+				this.addr=addr;
+		}
+		public String getAddr(){ return addr; }
+		public String getTel(){return tel;}
+		public String getName(){return name; }
+		
+		public void setAddr(String addr){this.addr=addr;}
+		public void setTel(String tel){ this.tel=tel;}
+		public void setName(String name){this.name=name; }
+}
+
+public class Round09_Object2 {
+		public static void main(String[] arg){
+			Vector<Friend2> vc =new Vector<Friend2>();
+			Scanner sc =new Scanner(System.in);
+			ObjectOutputStream f_out=null;
+			ObjectInputStream f_in=null;
+			
+			File dir =new File("C:/Users/cyj/Desktop/imsi");
+			if(!dir.exists())dir.mkdir();
+			//File file =new File( dir, "imsi.txt");
+			while(true){
+				System.out.print("1.친구추가 2.전체보기 3.파일로저장 4.불러오기 5.종료 = ");
+				int dist=sc.nextInt();
+				sc.nextLine();
+				switch(dist){
+					case 1:
+						Friend2 f=new Friend2();
+						System.out.print("친구 이름: ");
+						f.setName(sc.next());
+						System.out.print("친구 주소: ");
+						f.setAddr(sc.next());
+						System.out.print("친구집 전화번호 =");
+						f.setTel(sc.next());
+						vc.add(f);
+						System.out.println("친구 정보가 추가 되었다");
+						break;
+					case 2:
+						
+						for(Friend2 obj : vc){
+							System.out.print(obj.getName() + " : ");
+							System.out.print(obj.getTel() + " : ");
+							System.out.print(obj.getAddr());
+						}
+						System.out.println("전체 " + vc.size() +" 명의 친구!");
+						break;
+					case 3 :
+						System.out.print("저장할 파일명 =");
+						String filename =sc.nextLine();
+						try{
+							f_out =new ObjectOutputStream(new BufferedOutputStream(new FileOutputStream(new File(dir, filename)),1024));
+							f_out.writeObject(vc);
+							f_out.close();
+							System.out.println("친구 목록이 파일로 잘 저장되었습니다.");
+						}catch(IOException e){}
+						break;
+					case 4 :
+						
+						JFileChooser jf =new JFileChooser();
+						jf.showOpenDialog(new JFrame());
+						File filename2= jf.getSelectedFile().getAbsoluteFile();
+						try{
+							f_in=new ObjectInputStream(new BufferedInputStream(new FileInputStream(filename2),1024));
+							
+							Object obj=null;
+							try{
+								obj =f_in.readObject();
+							}catch(ClassNotFoundException ee){}
+							f_in.close();
+							vc.clear();
+							vc=(Vector)obj;
+							System.out.println("친구 목록을 읽어 왔습니다.");
+						}catch(IOException e){
+							System.out.println(e.getMessage());
+						}
+						
+						
+						break;
+					case 5 :
+						System.out.println("시스템 종료!");
+						System.exit(0);
+						break;
+					default:
+						System.out.println("잘못 입력 했다.");
+				}
+				System.out.println();
+				
+			}
+			
+			
+			
+		}
+	
+}
+
+
+
+
+
+
+
+
+
+
+

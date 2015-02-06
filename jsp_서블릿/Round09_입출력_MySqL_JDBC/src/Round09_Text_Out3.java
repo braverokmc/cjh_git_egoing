@@ -1,0 +1,32 @@
+import java.io.*;
+import java.net.*;
+import java.util.*;
+
+public class Round09_Text_Out3 {
+	public static void main(String[] arg){
+			
+		Scanner in =new Scanner(System.in);
+		Socket socket=null;
+		PrintWriter out =null;
+		try{
+			socket =new Socket(InetAddress.getByName("localhost"),12345);
+			out =new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())));
+			
+		}catch(IOException ee){
+			
+			System.exit(0);
+		}
+		while(true){
+			System.out.print("전송할 문구(종료는 '.') =" );
+			String str=in.nextLine();
+			out.println(str);
+			out.flush();
+			if(str.trim().equals(".")) break;
+		}
+		out.close();
+		try{
+			socket.close();
+		}catch(IOException e){}
+		
+	}
+}
