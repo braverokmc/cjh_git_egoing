@@ -39,7 +39,7 @@ public class Round09_JDBC {
 		
 		try{
 			query="create table my_data (num int primary key auto_increment, name varchar(20) not null, age int)";
-			stmt=conn.createStatement();
+			
 			stmt.execute(query);
 			stmt.close();
 			System.out.println("my_data 생성");
@@ -57,7 +57,7 @@ public class Round09_JDBC {
 					String name =sc.nextLine();
 					System.out.print("나이 =");
 					int age =sc.nextInt();
-				//	sc.nextLine();
+					sc.nextLine();
 					query="insert into my_data value(null, ?, ?)";
 					try{
 						pstmt=conn.prepareStatement(query);
@@ -87,28 +87,22 @@ public class Round09_JDBC {
 							System.out.println(n + " : " +  na + " :  " + a );
 						}
 							
-						rs.close();
-						stmt.close();
 					}catch(SQLException e){
 						System.out.println(e.getMessage());
 					}
 					
 					break;
 				case 3:
-					System.out.println("프로그램 종료!");
-					break up;
 					
+					
+					break;
 				default :
 					System.out.println("잘못 입력 했다");
 					break;
 			}
-			System.out.println();
+			
 		}
-		try{
-			if(conn!= null && !conn.isClosed())
-				conn.close();
-			conn =null;
-		}catch(SQLException e){}
+		
 		
 	}
 }
