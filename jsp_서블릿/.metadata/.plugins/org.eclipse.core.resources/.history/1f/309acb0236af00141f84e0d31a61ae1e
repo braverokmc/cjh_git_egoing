@@ -1,0 +1,30 @@
+package round10.controllers;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+public class Round10_MemberProcess extends HttpServlet{
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		
+		request.setCharacterEncoding("euc-kr");
+		String name =request.getParameter("name");
+		String tel=request.getParameter("tel");
+		String addr=request.getParameter("addr");
+		
+		Round10_MemberDTO dto =new 
+		
+		
+	}
+
+	
+	
+	
+}

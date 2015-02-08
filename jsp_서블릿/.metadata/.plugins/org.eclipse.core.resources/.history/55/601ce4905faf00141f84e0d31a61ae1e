@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="Round10" default="war_set" basedir=".">
+    <property name="content.path" location="${basedir}/WebContent" />
+    <property name="build.path" location="${basedir}/build" />
+    <property name="server.path" location="C:/Tomcat/webapps" />
+    <property name="virtual.path" location="${basedir}/war" />
+    
+    <target name="war_set">
+        <mkdir dir="${virtual.path}" />
+        <copy todir="${virtual.path}" >
+            <fileset dir="${content.path}">
+                <include name="**/*"/>
+            </fileset>
+        </copy>
+        
+   
+        
+        
+        <delete dir="${server.path}/${ant.project.name}"/>
+        <delete file="${server.path}/${ant.project.name}.war" />
+        <jar destfile="${server.path}/${ant.project.name}.war" basedir="${virtual.path}"/>
+        
+        <delete dir="${virtual.path}"/>
+        <echo>작업 종료!</echo>
+        
+    </target>
+    
+</project>

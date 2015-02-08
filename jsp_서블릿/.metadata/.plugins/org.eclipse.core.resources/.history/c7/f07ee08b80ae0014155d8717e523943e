@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+<%  
+	String title ="VIEW 영역입니다.";
+	out.println("<title>" + title + "</title>");
+%>
+
+
+</head>
+
+
+<body>
+
+</body>
+</html>

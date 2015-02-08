@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+
+<%  
+	String title ="VIEW 영역입니다.";
+	out.println("<title>" + title + "</title>");
+%>
+
+</head>
+
+
+<body>
+	
+	<center>
+		<table width="40%" border="1">
+			<%
+				String[] subject=new String[] { "이름", "나이", "전화"};
+				String[] names = new String[] {"NAME", "AGE", "TEL"};
+				for(int i=0; i<subject.length; ++i){
+				
+					out.println("<tr>");
+					out.println("<th width="30%"> ");
+					
+				
+				
+				}
+					
+			%>
+		</table>
+	</center>
+
+
+
+
+</body>
+</html>

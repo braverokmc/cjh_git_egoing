@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\277969851.index
+\Round10\src
+C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3794886951.index
+\Round09_입출력_MySqL_JDBC\src
