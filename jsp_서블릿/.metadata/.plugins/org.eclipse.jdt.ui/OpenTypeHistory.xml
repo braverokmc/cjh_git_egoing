@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=Round10/C:\/java\/jdk1.8.0_31\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1422520283408"/>
+<typeInfo handle="=Round10/C:\/Tomcat\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServletRequest.class[HttpServletRequest" modifiers="1537" timestamp="1415959522000"/>
+<typeInfo handle="=Round10/C:\/Tomcat\/lib\/servlet-api.jar&lt;javax.servlet.http(HttpServletResponse.class[HttpServletResponse" modifiers="1537" timestamp="1415959522000"/>
 </typeInfoHistroy>
