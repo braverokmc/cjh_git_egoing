@@ -5,20 +5,38 @@
   id="WebApp_ID" version="2.5">
   <display-name>CJH_Round12</display-name>
   
- 
   
   <servlet>
-    <servlet-name>My04</servlet-name>
+    <servlet-name>MY04</servlet-name>
     <servlet-class>Round12_04_Servlet</servlet-class>
   </servlet>
   
   
-    
+  <servlet>
+    <servlet-name>My05</servlet-name>
+    <servlet-class>Round12_05_Servlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>My06</servlet-name>
+    <servlet-class>Round12_06_Servlet</servlet-class>
+  </servlet>
+  
+  
   <servlet-mapping>
-    <servlet-name>my04</servlet-name>
+    <servlet-name>MY04</servlet-name>
     <url-pattern>/Servlet04</url-pattern>
   </servlet-mapping>
+    
+  <servlet-mapping>
+    <servlet-name>My05</servlet-name>
+    <url-pattern>/Servlet05</url-pattern>
+  </servlet-mapping>
   
+  <servlet-mapping>
+    <servlet-name>My06</servlet-name>
+    <url-pattern>/Servlet06</url-pattern>
+  </servlet-mapping>
   
   
   <welcome-file-list>
