@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Round09_입출력_MySqL_JDBC" path="/Round09_입출력_MySqL_JDBC" reloadable="true" source="org.eclipse.jst.jee.server:Round09_입출력_MySqL_JDBC"/><Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Round10" path="/Round10" reloadable="true" source="org.eclipse.jst.jee.server:Round10"/></Host>
+      <Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Round09_입출력_MySqL_JDBC" path="/Round09_입출력_MySqL_JDBC" reloadable="true" source="org.eclipse.jst.jee.server:Round09_입출력_MySqL_JDBC"/><Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Round10" path="/Round10" reloadable="true" source="org.eclipse.jst.jee.server:Round10"/><Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\CJH_Round12" path="/CJH_Round12" reloadable="true" source="org.eclipse.jst.jee.server:CJH_Round12"/></Host>
     </Engine>
   </Service>
 </Server>

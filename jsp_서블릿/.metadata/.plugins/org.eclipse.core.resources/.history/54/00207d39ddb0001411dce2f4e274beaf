@@ -1,0 +1,18 @@
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+
+import java.util.*;
+
+public class Round12_04_Servlet extends HttpServlet{
+	
+		public void inti(){ }
+		public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
+			
+			
+			
+			
+		}
+	
+	
+}
