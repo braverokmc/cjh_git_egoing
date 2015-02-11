@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+
+
+
+<body>
+
+	<center>
+	
+		<a href="http://localhost:9090/Round13_01_Servlet/Servlet01?name=kimsh&age=36">
+			나이 이름과 나이
+		
+		</a>
+	
+	
+	</center>
+
+
+
+
+
+</body>
+</html>
