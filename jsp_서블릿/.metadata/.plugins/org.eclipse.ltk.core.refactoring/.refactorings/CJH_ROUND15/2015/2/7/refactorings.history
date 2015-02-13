@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Round15_02_SesArea_02_extends&apos; to &apos;Round15_02_SesArea_02&apos;&#x0D;&#x0A;- Original project: &apos;CJH_ROUND15&apos;&#x0D;&#x0A;- Original element: &apos;Round15_02_SesArea_02_extends&apos;&#x0D;&#x0A;- Renamed element: &apos;Round15_02_SesArea_02&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Round15_02_SesArea_02_extends&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Round15_02_SesArea_02_extends.java[Round15_02_SesArea_02_extends" matchStrategy="1" name="Round15_02_SesArea_02" qualified="false" references="true" similarDeclarations="false" stamp="1423796892198" textual="false" version="1.0"/>
+</session>

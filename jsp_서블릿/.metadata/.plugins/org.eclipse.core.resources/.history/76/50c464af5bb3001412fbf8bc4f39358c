@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>CJH_ROUND15</display-name>
+  
+  <servlet>
+    <servlet-name>My01_01</servlet-name>
+    <servlet-class>Round15_01_ReqArea_01</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>My01_02</servlet-name>
+    <servlet-class>Round15_01_ReqArea_02</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <servlet-name>My02_01</servlet-name>
+    <servlet-class>Round15_02_SsesArea_01</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <servlet-name>My02_02</servlet-name>
+    <servlet-class>Round15_02_SesArea_02</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>My02_03</servlet-name>
+    <servlet-class>Round15_02_SesArea_03</servlet-class>
+  </servlet>
+  
+  
+  <servlet>
+    <servlet-name>My03_01</servlet-name>
+    <servlet-class>Round15_03_Cookie_01</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <servlet-name>My03_02</servlet-name>
+    <servlet-class>Round15_03_Cookie_02</servlet-class>
+  </servlet>
+  
+  
+  
+  <servlet-mapping>
+    <servlet-name>My01_01</servlet-name>
+    <url-pattern>/Servlet01_01</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>My01_02</servlet-name>
+    <url-pattern>/Servlet01_02</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>My02_01</servlet-name>
+    <url-pattern>/Servlet02_01</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>My02_02</servlet-name>
+    <url-pattern>/Servlet02_02</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>My02_03</servlet-name>
+    <url-pattern>/Servlet02_03</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet-mapping>
+    <servlet-name>My03_01</servlet-name>
+    <url-pattern>/Servlet03_01</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>My03_02</servlet-name>
+    <url-pattern>/Servlet03_02</url-pattern>
+  </servlet-mapping>
+  
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

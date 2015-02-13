@@ -1,0 +1,20 @@
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+
+public class Round15_03_Cookie_02 extends HttpServlet{
+
+	public void doPost(HttpServletRequest request, HttpServletResponse repose) throws IOException, ServletException{
+	
+		
+		request.setCharacterEncoding("euc-kr");
+		
+		String id =request.getParameter("id");
+		String pw =request.getParameter("pw");
+		String id_rem =request.getParameter("id_rem");
+		
+		
+		
+		
+	}
+}

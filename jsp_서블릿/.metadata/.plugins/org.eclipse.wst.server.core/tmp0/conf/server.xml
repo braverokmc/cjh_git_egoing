@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Round13_01_Servlet" path="/Round13_01_Servlet" reloadable="true" source="org.eclipse.jst.jee.server:Round13_01_Servlet"/></Host>
+      <Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Round13_01_Servlet" path="/Round13_01_Servlet" reloadable="true" source="org.eclipse.jst.jee.server:Round13_01_Servlet"/><Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\CJH_Round14" path="/CJH_Round14" reloadable="true" source="org.eclipse.jst.jee.server:CJH_Round14"/><Context docBase="C:\naver\네이버저장소\jsp_서블릿\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\CJH_ROUND15" path="/CJH_ROUND15" reloadable="true" source="org.eclipse.jst.jee.server:CJH_ROUND15"/></Host>
     </Engine>
   </Service>
 </Server>

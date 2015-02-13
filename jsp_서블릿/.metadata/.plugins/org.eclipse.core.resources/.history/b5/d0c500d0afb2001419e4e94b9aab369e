@@ -1,0 +1,21 @@
+import java.io.*;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+
+import java.rmi.ServerException;
+import java.util.*;
+
+public class Round15_01_ReqArea_01 {
+	
+	public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServerException{
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+}
